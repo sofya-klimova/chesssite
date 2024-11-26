@@ -669,15 +669,13 @@ form {
 }
 
 .content__text {
-  width: 147px;
-  height: 35px;
-  padding: 5px 0px 5px 5px;
+  padding: 0px 0px 0px 5px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -webkit-box-align: stretch;
+      -ms-flex-align: stretch;
+          align-items: stretch;
 }
 
 .content span {
@@ -685,7 +683,7 @@ form {
   font-weight: 700;
   text-transform: uppercase;
   color: #595653;
-  line-height: 18px;
+  line-height: 17px;
 }
 
 .footer {
@@ -2256,6 +2254,7 @@ h2 p span {
 
   .content span {
     font-size: 14px;
+    line-height: 18px;
   }
 
   .page__information h2 p {
